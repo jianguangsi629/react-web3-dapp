@@ -1,11 +1,10 @@
 // src/components/Footer.tsx
 import React from 'react';
-import './Footer.css';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer">
-      <p>&copy; 2024 My Web3 App</p>
+    <footer style={{ backgroundColor: '#1e2a38', color: '#fff', textAlign: 'center', padding: '10px', position: 'fixed', bottom: 0, width: '100%' }}>
+      <p>&copy; 2024 My Web3 App. All Rights Reserved.</p>
     </footer>
   );
 };
