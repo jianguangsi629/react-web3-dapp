@@ -1,0 +1,13 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000; /* 黑色背景 */
+}
+  
+  .wallet-icon {
+    cursor: pointer;
+  }

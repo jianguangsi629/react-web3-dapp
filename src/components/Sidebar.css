@@ -1,0 +1,26 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 200px;
+    background-color: #333; /* 黑色背景 */
+    color: #fff; /* 白色文字 */
+    padding: 20px;
+    height: calc(100vh - 60px); /* 减去导航栏的高度，确保不与导航栏重叠 */
+    position: fixed;
+    top: 60px; /* 距离导航栏的高度 */
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    text-decoration: underline;
+  }
